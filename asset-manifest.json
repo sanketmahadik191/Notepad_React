@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Notepad_React/static/css/main.c897cbe7.css",
+    "main.js": "/Notepad_React/static/js/main.77b5bc03.js",
+    "index.html": "/Notepad_React/index.html",
+    "main.c897cbe7.css.map": "/Notepad_React/static/css/main.c897cbe7.css.map",
+    "main.77b5bc03.js.map": "/Notepad_React/static/js/main.77b5bc03.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c897cbe7.css",
+    "static/js/main.77b5bc03.js"
+  ]
+}
