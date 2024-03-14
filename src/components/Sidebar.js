@@ -7,7 +7,7 @@ export const Sidebar= ({notes ,onAddNote ,onDeleteNote ,activeNote ,setActiveNot
         <div className="app-sidebar">
             <div className="app-sidebar-header">
                 <h1>Notes</h1>
-                <button onClick={onAddNote}>Add</button>
+                <button class="btn btn-primary" onClick={onAddNote}>Add</button>
             </div>
             <div className="app-sidebar-notes" >
                 {sortedNotes.map((note) => (
@@ -16,7 +16,7 @@ export const Sidebar= ({notes ,onAddNote ,onDeleteNote ,activeNote ,setActiveNot
                 >
                     <div className="sidebar-note-title">
                         <strong>{note.title}</strong>
-                        <button onClick={()=> onDeleteNote(note.id)}>Delete</button>
+                        <button class="btn btn-danger" onClick={()=> onDeleteNote(note.id)}>X</button>
                     </div>
                     {/* to hide extra */}
                     <p>{ note.body && note.body.substr(0,100) +"..."}</p>

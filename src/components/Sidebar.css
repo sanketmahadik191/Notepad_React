@@ -30,7 +30,7 @@
     justify-content: space-between;
   }
   .app-sidebar-note button {
-    color: crimson;
+    color: rgb(255, 253, 254);
   }
   .app-sidebar-note p {
     margin: 10px 0;

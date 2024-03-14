@@ -4,6 +4,7 @@ import './App.css';
 import { Main } from './components/Main';
 import { Sidebar } from './components/Sidebar';
 import uuid from 'react-uuid';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
