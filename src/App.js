@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
-   //logic 
+   
   // to store notes
    const [notes ,setNotes] = useState(JSON.parse(localStorage.notes) || []);
 
